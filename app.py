@@ -21,7 +21,7 @@ from groq import Groq            # the client object that talks to the Groq API
 # 1. PAGE SETUP (must be the first Streamlit command)
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="LinkedIn Post Generator",
+    page_title="Kamal's LinkedIn Post Generator",
     page_icon="✍️",
     layout="centered",
 )
@@ -181,7 +181,7 @@ with st.sidebar:
 # ---------------------------------------------------------------------------
 # 6. MAIN PAGE (inputs)
 # ---------------------------------------------------------------------------
-st.title("✍️ LinkedIn Post Generator")
+st.title("✍️ Kamal's LinkedIn Post Generator")
 st.write("Describe what you want to post about, choose a few options, and get a ready-to-edit LinkedIn post.")
 
 topic = st.text_area(
